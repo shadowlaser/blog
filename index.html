@@ -1,16 +1,15 @@
 ---
 layout: default
-title: blog list
+title: shadowlaser's blog
 ---
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date_to_string }}</span> &raquo; 
-        <a href="{{ site.blogurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
 
-    {% endfor %}
-  </ul>
-</div>
+<h1 id="project_title">Blog Posts</h1>
+<ul>
+{% for post in site.posts %}
+  <li>
+    <span>{{ post.date | date_to_string }}</span> &raquo; 
+    <a href="{{ site.blogurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+
+{% endfor %}
+</ul>
