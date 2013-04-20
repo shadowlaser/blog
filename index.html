@@ -8,14 +8,9 @@ title: blog list
     {% for post in site.posts %}
       <li>
         <span>{{ post.date | date_to_string }}</span> &raquo; 
-        <a href="/blog{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.blogurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
 
     {% endfor %}
-      <li>
-        <a href="{{ site.blogurl }}">post.url</a>
-        <a href="{{ site.url }}">post.url</a>
-        <a href="{{ post.url }}">post.url</a>
-      </li>
   </ul>
 </div>
