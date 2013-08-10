@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://sinber.github.com/blog/blog-start/</loc>
+        <lastmod>2013-06-12T12:09:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sinber.github.com/blog/linux-learning-map/</loc>
+        <lastmod>2013-06-12T12:09:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sinber.github.com/search.html</loc>
+        <lastmod>2013-06-12T12:09:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sinber.github.com/blog/archives/</loc>
+        <lastmod>2013-06-12T12:09:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sinber.github.com/</loc>
+        <lastmod>2013-06-12T12:09:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sinber.github.com/robots.txt</loc>
+        <lastmod>2013-06-10T20:44:56+08:00</lastmod>
+    </url>
+</urlset>
